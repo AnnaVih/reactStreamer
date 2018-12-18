@@ -11,7 +11,7 @@ class GoogleAuth extends Component {
                 scope: 'email'
             }).then(() => {
                 this.auth = window.gapi.auth2.getAuthInstance()
-                this.onOuthChange(this.props.isSignedIn)
+                this.onOuthChange(this.auth.isSignedIn.get())
                 this.auth.isSignedIn.listen(this.onOuthChange)
             })
         })
