@@ -1,6 +1,6 @@
 # Streamer 
 
-An app to create/update/show/delete a stream. The user can login via google auth and use the basic CRUD operations.
+Simple React/Redux app for creating/updating/showing/deleting streams. User can login via Google auth and use the basic CRUD operations to navigate across the application.
 
 ### Install locally
 
