@@ -1,7 +1,6 @@
 # Streamer 
 
-An app to stream the twitch video. The user can login via google auth and use the basic CRUD operations
-such - Create/Edit/Delete/Show. 
+An app to create/update/show/delete a stream. The user can login via google auth and use the basic CRUD operations.
 
 ### Install locally
 
