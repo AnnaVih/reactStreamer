@@ -30,12 +30,21 @@ $ npm install
 Install dependency
 
 ### Serve
+You need to run locally both client and server projects.
 
-```sh
+```bash
+cd client
 $ npm start
 ```
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+```bash
+cd api
+$ npm start
+```
+Runs the app in the development mode.<br>
+Open [http://localhost:3001](http://localhost:3001) to view it in the browser.
 
 ### Build
 
