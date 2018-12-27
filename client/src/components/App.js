@@ -8,6 +8,7 @@ import StreamList from './streams/StreamList'
 import StreamShow from './streams/StreamShow'
 
 import Header from './Header'
+import Footer from './Footer'
 import history from '../history'
 
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
                     <Route path="/streams/delete/:id" component={StreamDelete}/>
                     <Route path="/streams/:id" component={StreamShow}/>
                 </Switch>
+                <Footer/>
             </div>
             </Router>
         </div>
